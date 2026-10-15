@@ -1,10 +1,8 @@
 # Grok Bot 接入微信
 
-**English:** A Cursor skill recipe for connecting WeChat ClawBot (iLink) to a Grok Bot webhook Routine through a local box forwarder. This repository documents the setup. It is not a running service.
+**English:** A Cursor skill recipe, not a running service: WeChat ClawBot (iLink) text wakes a Grok Bot webhook Routine, and a local forwarder on the box sends the reply back.
 
-把微信 ClawBot（iLink）接到 Grok Bot：入站微信文字唤醒一条 webhook Routine，回复经盒子上的本地转发进程送回微信。
-
-本仓库是可复用的**操作配方**（Cursor skill），不是正在运行的桥接服务，也不包含账号、密钥或机器标识。
+可复用的 **Cursor skill 操作配方**，不是正在运行的桥接服务：入站微信文字唤醒一条 webhook Routine，回复经盒子上的本地转发进程送回 ClawBot（iLink）。不含账号、密钥或机器标识。
 
 ## 架构
 
