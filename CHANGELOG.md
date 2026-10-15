@@ -4,6 +4,7 @@
 
 ## Unreleased
 
+- 首页开头改成更口语的说法：微信发来的文字会触发 Grok Bot 的 webhook Routine。
 - 首页标出 MIT，并链到 Issues、许可证和本文件。
 - 补贡献说明、安全说明，以及较短的 Issue / PR 模板。
 

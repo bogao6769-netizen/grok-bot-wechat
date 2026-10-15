@@ -1,12 +1,12 @@
 # Grok Bot 接入微信
 
-> 放在 Cursor 里照着做的技能配方：微信里的文字叫醒一条 Grok Bot webhook Routine，盒子上的本地转发器再把回复送回。本仓库不运行桥接服务。
+> 放在 Cursor 里照着做的技能配方：微信发来的文字会触发 Grok Bot 的 webhook Routine，盒子上的本地转发器再把回复送回。本仓库不运行桥接服务。
 
 [Issues](https://github.com/bogao6769-netizen/grok-bot-wechat/issues/new/choose) · [MIT](LICENSE) · [CHANGELOG](CHANGELOG.md)
 
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**English:** A Cursor skill recipe, not a running service. WeChat ClawBot (iLink) text wakes a Grok Bot webhook Routine, and a local forwarder on the box sends the reply back.
+**English:** A Cursor skill recipe, not a running service. WeChat ClawBot (iLink) text triggers Grok Bot's webhook Routine, and a local forwarder on the box sends the reply back.
 
 入站走 ClawBot（iLink），出站仍回到同一会话。账号、密钥和机器标识不进这个仓库。
 
