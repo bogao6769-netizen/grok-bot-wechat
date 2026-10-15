@@ -1,0 +1,22 @@
+name: 给配方补一截
+description: 建议技能或文档增加一段说明
+title: "[补充] "
+body:
+  - type: textarea
+    id: gap
+    attributes:
+      label: 现在缺哪一段
+      description: 描述读者会卡住的地方。不要附真实密钥或私人标识。
+    validations:
+      required: true
+  - type: textarea
+    id: add
+    attributes:
+      label: 希望补进技能的内容
+      description: 本仓库只改技能和文档。
+    validations:
+      required: true
+  - type: textarea
+    id: tried
+    attributes:
+      label: 你已经试过的写法（可选）
