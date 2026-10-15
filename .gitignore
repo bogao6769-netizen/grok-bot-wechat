@@ -1,0 +1,15 @@
+# Secrets and local bridge state
+.env
+.env.*
+!.env.example
+state/
+*.token
+
+# Editor and OS junk
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini

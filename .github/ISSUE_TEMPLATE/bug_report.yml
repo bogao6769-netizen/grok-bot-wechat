@@ -1,0 +1,31 @@
+name: 配方对不上
+description: 技能或首页的某一步和实际操作不一致
+title: "[配方] "
+body:
+  - type: input
+    id: section
+    attributes:
+      label: 哪一节
+      placeholder: 例如「手机扫码绑定」或 README 的第 4 步
+    validations:
+      required: true
+  - type: textarea
+    id: saw
+    attributes:
+      label: 你实际遇到的情况
+      description: 只写可以公开的现象。密钥、token、微信用户 id、机器 id 不要出现。
+    validations:
+      required: true
+  - type: textarea
+    id: wanted
+    attributes:
+      label: 文档应改成什么
+    validations:
+      required: true
+  - type: checkboxes
+    id: redacted
+    attributes:
+      label: 发布前
+      options:
+        - label: 这条里没有 webhook 密钥、bot_token、context_token、用户 id、机器 id 或 state 内容
+          required: true
